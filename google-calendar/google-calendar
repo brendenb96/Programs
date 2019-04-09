@@ -1,0 +1,2 @@
+#!/bin/bash
+google-chrome https://calendar.google.com/calendar/r --new-window && sleep 0.1 && wmctrl -r ":ACTIVE:" -e 0,1982,1080,1920,1080

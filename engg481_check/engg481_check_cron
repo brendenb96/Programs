@@ -1,0 +1,5 @@
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=""
+
+0 * * * * brenden /usr/bin/python2.7 /home/brenden/Programs/engg481_check/engg481_check.py &> /tmp/engg481_check_output

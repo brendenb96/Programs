@@ -1,0 +1,3 @@
+server:
+	cp -fr google /var/www/html/.
+	chown -R www-data:www-data /var/www/html

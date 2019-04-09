@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh -v brendenb@bicknertruckingfuel.com -p2232

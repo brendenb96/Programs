@@ -1,0 +1,241 @@
+04/26/2019 13:09:55 [29261] set the loglevel to 1
+04/26/2019 13:09:55 [29261] sslvpn connection version:4.4.2335
+04/26/2019 13:09:55 [29230] set the loglevel to 1
+04/26/2019 13:09:55 [29261] rcv cmd:0 at state[0]
+04/26/2019 13:09:55 [29261] starting ssl vpn tunnel[4.4.2335]
+04/26/2019 13:09:55 [29265] route backup START
+04/26/2019 13:09:55 [29265] route backup DONE
+04/26/2019 13:09:55 [29266] execl /home/brenden/Programs/forticlientsslvpn/64bit/./helper/get_fortisslvpn_info /home/brenden/Programs/forticlientsslvpn/64bit/./helper gpvpn2.ucalgary.ca 10443   ...
+04/26/2019 13:09:55 [29266] trusted CA dir: /home/brenden/.fctsslvpn_trustca
+04/26/2019 13:09:55 [29266] set loglevel to 1
+04/26/2019 13:09:55 [29266] Peer's certificate is not valid. action is 1
+04/26/2019 13:09:55 [29266] peer's certificate: 
+Certificate:$    Data:$        Version: 3 (0x2)$        Serial Number:$            d8:0f:77:0e:af:de:87:3c:00:00:00:00:54:ce:65:b4$    Signature Algorithm: sha256WithRSAEncryption$        Issuer: C=US, O=Entrust, Inc., OU=See www.entrust.net/legal-terms, OU=(c) 2014 Entrust, Inc. - for authorized use only, CN=Entrust Certification Authority - L1M$        Validity$            Not Before: Apr 17 19:14:19 2018 GMT$            Not After : Apr 17 19:44:17 2020 GMT$        Subject: C=CA, ST=Alberta, L=Calgary/jurisdictionC=CA/jurisdictionST=Alberta, O=University of Calgary (Governors of the University of Calgary)/businessCategory=Private Organization, OU=Information Technologies/serialNumber=1966-4-29, CN=itv2.ucalgary.ca$        Subject Public Key Info:$            Public Key Algorithm: rsaEncryption$                Public-Key: (2048 bit)$                Modulus:$                    00:d6:90:eb:0f:21:98:62:2e:4a:36:62:8c:87:e2:$                    b0:fb:8d:58:e3:ba:49:8d:64:cc:0b:4b:7a:dc:bd:$                    15:f4:77:de:47:f8:20:e9:a2:7c:c6:0b:49:ee:02:$                    66:a0:83:fa:46:ed:05:5e:14:0b:3b:57:48:78:4b:$                    59:ec:43:08:1c:5a:dd:4b:50:01:a9:ef:05:91:3b:$                    28:15:e7:c7:71:d2:b7:c6:e2:e3:42:c6:db:74:7d:$                    81:11:61:98:b6:07:73:6a:a4:b8:fa:8d:8a:82:cb:$                    66:7e:cf:56:4c:ca:62:83:82:ff:ab:c2:33:48:2a:$                    44:bb:4f:8e:6c:a5:28:63:a9:35:8d:29:75:2f:4c:$                    24:11:e0:8d:7c:82:87:fa:56:98:c2:0e:f8:cd:13:$                    51:79:68:33:6a:3a:22:0a:ce:50:94:12:2d:dc:da:$                    6b:f0:35:92:4c:46:d8:13:ed:5a:47:9c:99:49:8f:$                    48:d3:f0:2f:20:6a:ad:92:22:2c:5b:b8:75:69:3d:$                    dc:b4:ef:20:22:70:69:88:b1:e6:2c:17:cc:37:35:$                    a8:a7:49:03:89:19:50:b0:33:3f:71:bc:9d:9a:78:$                    c0:9f:c2:09:c5:8f:9d:ea:58:c7:e5:cc:a9:e6:93:$                    a8:37:50:86:ec:bb:d0:e0:6c:f0:85:5e:96:5d:9f:$                    3a:8f$                Exponent: 65537 (0x10001)$        X509v3 extensions:$            X509v3 Subject Alternative Name: $                DNS:itv2.ucalgary.ca, DNS:gpvpn2.ucalgary.ca$            CT Precertificate SCTs: $                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : 55:81:D4:C2:16:90:36:01:4A:EA:0B:9B:57:3C:53:F0:$                                C0:E4:38:78:70:25:08:17:2F:A3:AA:1D:07:13:D3:0C$                    Timestamp : Apr 17 19:44:19.270 2018 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:46:02:21:00:F1:0D:F6:B5:04:D5:87:BF:9C:58:84:$                                AF:06:FF:01:78:04:9F:2D:BD:EC:CD:3F:5C:2A:69:70:$                                CD:99:57:B6:E1:02:21:00:AB:B6:E4:6E:8F:19:9D:5A:$                                FC:79:1B:2E:43:D0:EF:FA:E9:ED:25:47:08:C3:D8:CC:$                                21:80:56:2D:31:80:A3:AD$                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : DD:EB:1D:2B:7A:0D:4F:A6:20:8B:81:AD:81:68:70:7E:$                                2E:8E:9D:01:D5:5C:88:8D:3D:11:C4:CD:B6:EC:BE:CC$                    Timestamp : Apr 17 19:44:19.301 2018 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:45:02:20:6D:CF:D8:3E:F6:19:24:65:0E:A3:C4:C4:$                                9F:1A:31:C1:FC:F6:19:C4:15:DF:F8:86:29:CF:9B:9F:$                                84:F7:4F:9E:02:21:00:8B:DD:53:2C:C3:88:8C:9A:03:$                                A4:D2:C6:74:BC:B3:39:35:DC:1F:50:03:5F:AB:6D:99:$                                4B:E8:AD:5E:DF:A9:45$                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : EE:4B:BD:B7:75:CE:60:BA:E1:42:69:1F:AB:E1:9E:66:$                                A3:0F:7E:5F:B0:72:D8:83:00:C4:7B:89:7A:A8:FD:CB$                    Timestamp : Apr 17 19:44:19.355 2018 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:45:02:20:0F:85:15:C7:FE:CE:71:D4:7C:FC:AC:63:$                                44:2E:19:3E:5D:FC:9D:9F:5A:5E:DA:55:C8:65:5F:30:$                                83:6C:58:32:02:21:00:FF:F0:0C:EF:54:B9:D5:51:C0:$                                D7:82:C4:96:F4:F5:AB:C3:D1:D3:BE:F0:62:8C:80:38:$                                39:42:4C:92:57:43:33$                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : 6F:53:76:AC:31:F0:31:19:D8:99:00:A4:51:15:FF:77:$                                15:1C:11:D9:02:C1:00:29:06:8D:B2:08:9A:37:D9:13$                    Timestamp : Apr 17 19:44:19.581 2018 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:44:02:20:0E:6B:D7:E7:DD:3F:A4:01:60:E1:3F:83:$                                34:69:C0:52:56:BB:D8:DC:A8:36:5B:FF:AB:F6:B7:9A:$                                7F:A8:15:B1:02:20:16:A1:75:EB:56:5B:A1:56:25:0E:$                                18:32:1C:6A:E0:8B:F3:87:7A:22:45:F8:91:FD:E1:29:$                                61:02:AE:A8:C5:4D$            X509v3 Key Usage: critical$                Digital Signature, Key Encipherment$            X509v3 Extended Key Usage: $                TLS Web Server Authentication, TLS Web Client Authentication$            Authority Information Access: $                OCSP - URI:http://ocsp.entrust.net$                CA Issuers - URI:http://aia.entrust.net/l1m-chain256.cer$$            X509v3 CRL Distribution Points: $$                Full Name:$                  URI:http://crl.entrust.net/level1m.crl$$            X509v3 Certificate Policies: $                Policy: 2.16.840.1.114028.10.1.2$                  CPS: http://www.entrust.net/rpa$                Policy: 2.23.140.1.1$$            X509v3 Authority Key Identifier: $                keyid:C3:F7:D0:B5:2A:30:AD:AF:0D:91:21:70:39:54:DD:BC:89:70:C7:3A$$            X509v3 Subject Key Identifier: $                44:BB:6D:F7:42:ED:4C:6F:63:37:3D:6D:0F:04:9E:3B:2E:80:3D:83$            X509v3 Basic Constraints: $                CA:FALSE$    Signature Algorithm: sha256WithRSAEncryption$         cd:71:4b:ff:08:b9:2e:33:2a:33:9b:2f:28:ea:b2:e3:dd:11:$         7f:59:ff:95:a8:4d:92:ae:60:75:7f:8b:77:5c:8c:62:59:ea:$         88:df:26:3c:9a:61:40:a0:77:c2:bb:c3:bb:ef:a1:bd:99:27:$         69:3c:95:e7:c0:93:ca:46:12:f1:dd:a7:e6:af:20:63:5c:7f:$         11:f0:c9:54:f3:39:6d:eb:f0:9f:d8:2b:33:65:fd:07:c1:d6:$         b2:41:cc:70:d9:37:c9:5e:b0:b0:f2:1e:8d:ff:b8:ec:73:88:$         34:96:47:47:7a:e3:82:a3:42:c1:38:ac:fc:f5:71:2b:c3:c6:$         73:32:96:23:62:8a:06:c5:c7:69:0b:67:c7:69:b5:cb:a3:c3:$         fe:10:cc:ff:0e:83:1e:1f:7a:d7:c7:7e:f1:67:10:d4:62:b0:$         6c:35:a0:a5:90:3a:4d:56:21:3f:b8:3b:e5:bb:fd:35:be:1b:$         65:51:db:81:e5:5c:a2:c6:5d:49:fb:d1:1a:88:2b:3d:db:2a:$         5a:42:3e:ba:84:9b:2e:03:8f:83:6b:1c:ab:0c:b6:2a:b6:55:$         f1:d3:3c:76:c7:76:2c:36:97:55:a3:6a:f4:ad:43:c2:a5:df:$         15:5d:3d:03:c6:14:3b:d4:88:bc:c0:51:86:97:4a:8b:0b:15:$         21:04:a0:db$
+04/26/2019 13:09:57 [29266] realm is enabled: 
+04/26/2019 13:09:57 [29266] no Content-Length
+04/26/2019 13:09:57 [29266] try to get cookie for the first time: 98 :  SVPNNETWORKCOOKIE=; path=/remote/network; expires=Fri, 26-Apr-2019 19:09:57 GMT; secure; httponly
+04/26/2019 13:09:57 [29266] no Content-Length
+04/26/2019 13:09:57 [29266] cookie: SVPNCOOKIE=oN/YHhXk4IB4zVKsT80KO4zyPgHJKrCekJSrWueY6Zhz9ywpjyvXyFrQc8atHn7a%0afDOi2Ul1gVUnV1xI3rSj+KhfGstjdMRmFzfDMkjXhx+lqd57UePe1JOpr8P04AUt%0aSoXxBeWPir3QbLp1BwPfheZgv31KjwO9M4lhSeTydfqt2vxBlSdmcrZtc5sji5ko%0ae6c9Ss7Jrksn70WVNC3qwA==%0a
+04/26/2019 13:09:57 [29266] no Content-Length
+04/26/2019 13:09:57 [29266] no Content-Length
+04/26/2019 13:09:57 [29266] 0|gpvpn2.ucalgary.ca|10443|1||oN/YHhXk4IB4zVKsT80KO4zyPgHJKrCekJSrWueY6Zhz9ywpjyvXyFrQc8atHn7a%0afDOi2Ul1gVUnV1xI3rSj+KhfGstjdMRmFzfDMkjXhx+lqd57UePe1JOpr8P04AUt%0aSoXxBeWPir3QbLp1BwPfheZgv31KjwO9M4lhSeTydfqt2vxBlSdmcrZtc5sji5ko%0ae6c9Ss7Jrksn70WVNC3qwA==%0a|0
+04/26/2019 13:09:57 [29261] ssl vpn tunnel started
+04/26/2019 13:09:57 [29268] server=gpvpn2.ucalgary.ca[gpvpn2.ucalgary.ca] port=10443[10443] version=1 tunnel= cookie=oN/YHhXk4IB4zVKsT80KO4zyPgHJKrCekJSrWueY6Zhz9ywpjyvXyFrQc8atHn7a%0afDOi2Ul1gVUnV1xI3rSj+KhfGstjdMRmFzfDMkjXhx+lqd57UePe1JOpr8P04AUt%0aSoXxBeWPir3QbLp1BwPfheZgv31KjwO9M4lhSeTydfqt2vxBlSdmcrZtc5sji5ko%0ae6c9Ss7Jrksn70WVNC3qwA==%0a exclusive routing: 0
+
+04/26/2019 13:09:57 [29268] starting pppd
+04/26/2019 13:09:57 [29268] use tty:/dev/pts/1
+04/26/2019 13:09:57 [29268] connecting to gpvpn2.ucalgary.ca:10443
+04/26/2019 13:09:57 [29268] [xml config]: GET /remote/fortisslvpn_xml ... (received 867 bytes): 
+HTTP/1.1 200 OK
+Date: Fri, 26 Apr 2019 19:09:57 GMT
+Set-Cookie: SVPNCOOKIE=oN/YHhXk4IB4zVKsT80KO4zyPgHJKrCekJSrWueY6Zhz9ywpjyvXyFrQc8atHn7a%0afDOi2Ul1gVUnV1xI3rSj+KhfGstjdMRmFzfDMkjXhx+lqd57UePe1JOpr8P04AUt%0aSoXxBeWPir3QbLp1BwPfheZgv31KjwO9M4lhSeTydfqt2vxBlSdmcrZtc5sji5ko%0ae6c9Ss7Jrksn70WVNC3qwA==%0a; path=/; secure; httponly
+Transfer-Encoding: chunked
+Content-Type: text/xml
+X-Frame-Options: SAMEORIGIN
+
+<?xml version='1.0' encoding='utf-8'?><sslvpn-tunnel ver='1' patch='1'><fos platform='FG300C' major='5' minor='02' patch='13' build='0762' branch='762' /><client-config save-password='off' keep-alive='off' auto-connect='off' /><ipv4><dns ip='136.159.1.21' /><dns ip='136.159.34.201' /><wins ip='136.159.39.3' /><wins ip='136.159.39.4' /><assigned-addr ipv4='10.56.40.36' /></ipv4><idle-timeout val='7200' /><auth-timeout val='28800' /></sslvpn-tunnel>
+----
+
+04/26/2019 13:09:57 [29268] dns suffix: 
+
+04/26/2019 13:09:58 [29268] Got local address from ppp, interface will be  up
+04/26/2019 13:09:59 [29261] rcv cmd:1 at state[1]
+04/26/2019 13:09:59 [29261] stopping ssl vpn tunnel[v4.4.2335]
+04/26/2019 13:09:59 [29261] kill_child:29268
+04/26/2019 13:09:59 [29261] kill_child:29266
+04/26/2019 13:09:59 [29266] signal rcved, logout now
+04/26/2019 13:09:59 [29268] killing pppd ...
+04/26/2019 13:09:59 [29268] kill_child:29270
+04/26/2019 13:09:59 [29261] tunnel terminated
+04/26/2019 13:09:59 [29347] begin cleanup linux...
+04/26/2019 13:09:59 [29347] restore /etc/resolv.conf
+04/26/2019 13:09:59 [29347] clean up route...
+04/26/2019 13:09:59 [29347] truncate pppd.log
+04/26/2019 13:09:59 [29347] truncate forticlientsslvpn.log
+04/26/2019 13:09:59 [29261] ssl vpn tunnel stopped
+04/26/2019 13:09:59 [29261] rcv cmd:2 at state[0]
+04/26/2019 13:10:30 [29429] set the loglevel to 1
+04/26/2019 13:10:30 [29429] sslvpn connection version:4.4.2335
+04/26/2019 13:10:30 [29230] set the loglevel to 1
+04/26/2019 13:10:30 [29429] rcv cmd:0 at state[0]
+04/26/2019 13:10:30 [29429] starting ssl vpn tunnel[4.4.2335]
+04/26/2019 13:10:30 [29433] route backup START
+04/26/2019 13:10:30 [29433] route backup DONE
+04/26/2019 13:10:30 [29434] execl /home/brenden/Programs/forticlientsslvpn/64bit/./helper/get_fortisslvpn_info /home/brenden/Programs/forticlientsslvpn/64bit/./helper gpvpn2.ucalgary.ca 10443   ...
+04/26/2019 13:10:30 [29434] trusted CA dir: /home/brenden/.fctsslvpn_trustca
+04/26/2019 13:10:30 [29434] set loglevel to 1
+04/26/2019 13:10:30 [29434] Peer's certificate is not valid. action is 1
+04/26/2019 13:10:30 [29434] peer's certificate: 
+Certificate:$    Data:$        Version: 3 (0x2)$        Serial Number:$            d8:0f:77:0e:af:de:87:3c:00:00:00:00:54:ce:65:b4$    Signature Algorithm: sha256WithRSAEncryption$        Issuer: C=US, O=Entrust, Inc., OU=See www.entrust.net/legal-terms, OU=(c) 2014 Entrust, Inc. - for authorized use only, CN=Entrust Certification Authority - L1M$        Validity$            Not Before: Apr 17 19:14:19 2018 GMT$            Not After : Apr 17 19:44:17 2020 GMT$        Subject: C=CA, ST=Alberta, L=Calgary/jurisdictionC=CA/jurisdictionST=Alberta, O=University of Calgary (Governors of the University of Calgary)/businessCategory=Private Organization, OU=Information Technologies/serialNumber=1966-4-29, CN=itv2.ucalgary.ca$        Subject Public Key Info:$            Public Key Algorithm: rsaEncryption$                Public-Key: (2048 bit)$                Modulus:$                    00:d6:90:eb:0f:21:98:62:2e:4a:36:62:8c:87:e2:$                    b0:fb:8d:58:e3:ba:49:8d:64:cc:0b:4b:7a:dc:bd:$                    15:f4:77:de:47:f8:20:e9:a2:7c:c6:0b:49:ee:02:$                    66:a0:83:fa:46:ed:05:5e:14:0b:3b:57:48:78:4b:$                    59:ec:43:08:1c:5a:dd:4b:50:01:a9:ef:05:91:3b:$                    28:15:e7:c7:71:d2:b7:c6:e2:e3:42:c6:db:74:7d:$                    81:11:61:98:b6:07:73:6a:a4:b8:fa:8d:8a:82:cb:$                    66:7e:cf:56:4c:ca:62:83:82:ff:ab:c2:33:48:2a:$                    44:bb:4f:8e:6c:a5:28:63:a9:35:8d:29:75:2f:4c:$                    24:11:e0:8d:7c:82:87:fa:56:98:c2:0e:f8:cd:13:$                    51:79:68:33:6a:3a:22:0a:ce:50:94:12:2d:dc:da:$                    6b:f0:35:92:4c:46:d8:13:ed:5a:47:9c:99:49:8f:$                    48:d3:f0:2f:20:6a:ad:92:22:2c:5b:b8:75:69:3d:$                    dc:b4:ef:20:22:70:69:88:b1:e6:2c:17:cc:37:35:$                    a8:a7:49:03:89:19:50:b0:33:3f:71:bc:9d:9a:78:$                    c0:9f:c2:09:c5:8f:9d:ea:58:c7:e5:cc:a9:e6:93:$                    a8:37:50:86:ec:bb:d0:e0:6c:f0:85:5e:96:5d:9f:$                    3a:8f$                Exponent: 65537 (0x10001)$        X509v3 extensions:$            X509v3 Subject Alternative Name: $                DNS:itv2.ucalgary.ca, DNS:gpvpn2.ucalgary.ca$            CT Precertificate SCTs: $                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : 55:81:D4:C2:16:90:36:01:4A:EA:0B:9B:57:3C:53:F0:$                                C0:E4:38:78:70:25:08:17:2F:A3:AA:1D:07:13:D3:0C$                    Timestamp : Apr 17 19:44:19.270 2018 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:46:02:21:00:F1:0D:F6:B5:04:D5:87:BF:9C:58:84:$                                AF:06:FF:01:78:04:9F:2D:BD:EC:CD:3F:5C:2A:69:70:$                                CD:99:57:B6:E1:02:21:00:AB:B6:E4:6E:8F:19:9D:5A:$                                FC:79:1B:2E:43:D0:EF:FA:E9:ED:25:47:08:C3:D8:CC:$                                21:80:56:2D:31:80:A3:AD$                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : DD:EB:1D:2B:7A:0D:4F:A6:20:8B:81:AD:81:68:70:7E:$                                2E:8E:9D:01:D5:5C:88:8D:3D:11:C4:CD:B6:EC:BE:CC$                    Timestamp : Apr 17 19:44:19.301 2018 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:45:02:20:6D:CF:D8:3E:F6:19:24:65:0E:A3:C4:C4:$                                9F:1A:31:C1:FC:F6:19:C4:15:DF:F8:86:29:CF:9B:9F:$                                84:F7:4F:9E:02:21:00:8B:DD:53:2C:C3:88:8C:9A:03:$                                A4:D2:C6:74:BC:B3:39:35:DC:1F:50:03:5F:AB:6D:99:$                                4B:E8:AD:5E:DF:A9:45$                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : EE:4B:BD:B7:75:CE:60:BA:E1:42:69:1F:AB:E1:9E:66:$                                A3:0F:7E:5F:B0:72:D8:83:00:C4:7B:89:7A:A8:FD:CB$                    Timestamp : Apr 17 19:44:19.355 2018 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:45:02:20:0F:85:15:C7:FE:CE:71:D4:7C:FC:AC:63:$                                44:2E:19:3E:5D:FC:9D:9F:5A:5E:DA:55:C8:65:5F:30:$                                83:6C:58:32:02:21:00:FF:F0:0C:EF:54:B9:D5:51:C0:$                                D7:82:C4:96:F4:F5:AB:C3:D1:D3:BE:F0:62:8C:80:38:$                                39:42:4C:92:57:43:33$                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : 6F:53:76:AC:31:F0:31:19:D8:99:00:A4:51:15:FF:77:$                                15:1C:11:D9:02:C1:00:29:06:8D:B2:08:9A:37:D9:13$                    Timestamp : Apr 17 19:44:19.581 2018 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:44:02:20:0E:6B:D7:E7:DD:3F:A4:01:60:E1:3F:83:$                                34:69:C0:52:56:BB:D8:DC:A8:36:5B:FF:AB:F6:B7:9A:$                                7F:A8:15:B1:02:20:16:A1:75:EB:56:5B:A1:56:25:0E:$                                18:32:1C:6A:E0:8B:F3:87:7A:22:45:F8:91:FD:E1:29:$                                61:02:AE:A8:C5:4D$            X509v3 Key Usage: critical$                Digital Signature, Key Encipherment$            X509v3 Extended Key Usage: $                TLS Web Server Authentication, TLS Web Client Authentication$            Authority Information Access: $                OCSP - URI:http://ocsp.entrust.net$                CA Issuers - URI:http://aia.entrust.net/l1m-chain256.cer$$            X509v3 CRL Distribution Points: $$                Full Name:$                  URI:http://crl.entrust.net/level1m.crl$$            X509v3 Certificate Policies: $                Policy: 2.16.840.1.114028.10.1.2$                  CPS: http://www.entrust.net/rpa$                Policy: 2.23.140.1.1$$            X509v3 Authority Key Identifier: $                keyid:C3:F7:D0:B5:2A:30:AD:AF:0D:91:21:70:39:54:DD:BC:89:70:C7:3A$$            X509v3 Subject Key Identifier: $                44:BB:6D:F7:42:ED:4C:6F:63:37:3D:6D:0F:04:9E:3B:2E:80:3D:83$            X509v3 Basic Constraints: $                CA:FALSE$    Signature Algorithm: sha256WithRSAEncryption$         cd:71:4b:ff:08:b9:2e:33:2a:33:9b:2f:28:ea:b2:e3:dd:11:$         7f:59:ff:95:a8:4d:92:ae:60:75:7f:8b:77:5c:8c:62:59:ea:$         88:df:26:3c:9a:61:40:a0:77:c2:bb:c3:bb:ef:a1:bd:99:27:$         69:3c:95:e7:c0:93:ca:46:12:f1:dd:a7:e6:af:20:63:5c:7f:$         11:f0:c9:54:f3:39:6d:eb:f0:9f:d8:2b:33:65:fd:07:c1:d6:$         b2:41:cc:70:d9:37:c9:5e:b0:b0:f2:1e:8d:ff:b8:ec:73:88:$         34:96:47:47:7a:e3:82:a3:42:c1:38:ac:fc:f5:71:2b:c3:c6:$         73:32:96:23:62:8a:06:c5:c7:69:0b:67:c7:69:b5:cb:a3:c3:$         fe:10:cc:ff:0e:83:1e:1f:7a:d7:c7:7e:f1:67:10:d4:62:b0:$         6c:35:a0:a5:90:3a:4d:56:21:3f:b8:3b:e5:bb:fd:35:be:1b:$         65:51:db:81:e5:5c:a2:c6:5d:49:fb:d1:1a:88:2b:3d:db:2a:$         5a:42:3e:ba:84:9b:2e:03:8f:83:6b:1c:ab:0c:b6:2a:b6:55:$         f1:d3:3c:76:c7:76:2c:36:97:55:a3:6a:f4:ad:43:c2:a5:df:$         15:5d:3d:03:c6:14:3b:d4:88:bc:c0:51:86:97:4a:8b:0b:15:$         21:04:a0:db$
+04/26/2019 13:10:31 [29434] realm is enabled: 
+04/26/2019 13:10:31 [29434] no Content-Length
+04/26/2019 13:10:31 [29434] try to get cookie for the first time: 98 :  SVPNNETWORKCOOKIE=; path=/remote/network; expires=Fri, 26-Apr-2019 19:10:31 GMT; secure; httponly
+04/26/2019 13:10:31 [29434] no Content-Length
+04/26/2019 13:10:31 [29434] cookie: SVPNCOOKIE=oN/YHhXk4IB4zVKsT80KO4zyPgHJKrCekJSrWueY6Zhz9ywpjyvXyFrQc8atHn7a%0afDOi2Ul1gVUnV1xI3rSj+KhfGstjdMRmFzfDMkjXhx+lqd57UePe1JOpr8P04AUt%0ajAq6PeiB3Zhz4sChEy/d8CE7wgdjr5hEwHoBCT1XHxwkeX8rLG/qRcJBShe2dJfs%0aPCfuhfxv/OecLym7pTUfzg==%0a
+04/26/2019 13:10:31 [29434] no Content-Length
+04/26/2019 13:10:31 [29434] no Content-Length
+04/26/2019 13:10:31 [29434] 0|gpvpn2.ucalgary.ca|10443|1||oN/YHhXk4IB4zVKsT80KO4zyPgHJKrCekJSrWueY6Zhz9ywpjyvXyFrQc8atHn7a%0afDOi2Ul1gVUnV1xI3rSj+KhfGstjdMRmFzfDMkjXhx+lqd57UePe1JOpr8P04AUt%0ajAq6PeiB3Zhz4sChEy/d8CE7wgdjr5hEwHoBCT1XHxwkeX8rLG/qRcJBShe2dJfs%0aPCfuhfxv/OecLym7pTUfzg==%0a|0
+04/26/2019 13:10:31 [29429] ssl vpn tunnel started
+04/26/2019 13:10:31 [29437] server=gpvpn2.ucalgary.ca[gpvpn2.ucalgary.ca] port=10443[10443] version=1 tunnel= cookie=oN/YHhXk4IB4zVKsT80KO4zyPgHJKrCekJSrWueY6Zhz9ywpjyvXyFrQc8atHn7a%0afDOi2Ul1gVUnV1xI3rSj+KhfGstjdMRmFzfDMkjXhx+lqd57UePe1JOpr8P04AUt%0ajAq6PeiB3Zhz4sChEy/d8CE7wgdjr5hEwHoBCT1XHxwkeX8rLG/qRcJBShe2dJfs%0aPCfuhfxv/OecLym7pTUfzg==%0a exclusive routing: 0
+
+04/26/2019 13:10:31 [29437] starting pppd
+04/26/2019 13:10:31 [29437] use tty:/dev/pts/1
+04/26/2019 13:10:31 [29437] connecting to gpvpn2.ucalgary.ca:10443
+04/26/2019 13:10:31 [29437] [xml config]: GET /remote/fortisslvpn_xml ... (received 867 bytes): 
+HTTP/1.1 200 OK
+Date: Fri, 26 Apr 2019 19:10:31 GMT
+Set-Cookie: SVPNCOOKIE=oN/YHhXk4IB4zVKsT80KO4zyPgHJKrCekJSrWueY6Zhz9ywpjyvXyFrQc8atHn7a%0afDOi2Ul1gVUnV1xI3rSj+KhfGstjdMRmFzfDMkjXhx+lqd57UePe1JOpr8P04AUt%0ajAq6PeiB3Zhz4sChEy/d8CE7wgdjr5hEwHoBCT1XHxwkeX8rLG/qRcJBShe2dJfs%0aPCfuhfxv/OecLym7pTUfzg==%0a; path=/; secure; httponly
+Transfer-Encoding: chunked
+Content-Type: text/xml
+X-Frame-Options: SAMEORIGIN
+
+<?xml version='1.0' encoding='utf-8'?><sslvpn-tunnel ver='1' patch='1'><fos platform='FG300C' major='5' minor='02' patch='13' build='0762' branch='762' /><client-config save-password='off' keep-alive='off' auto-connect='off' /><ipv4><dns ip='136.159.1.21' /><dns ip='136.159.34.201' /><wins ip='136.159.39.3' /><wins ip='136.159.39.4' /><assigned-addr ipv4='10.56.40.36' /></ipv4><idle-timeout val='7200' /><auth-timeout val='28800' /></sslvpn-tunnel>
+----
+
+04/26/2019 13:10:31 [29437] dns suffix: 
+
+04/26/2019 13:10:31 [29437] Got local address from ppp, interface will be  up
+04/26/2019 13:10:33 [29437] ppp interface is up
+04/26/2019 13:10:33 [29437] run_scutil 136.159.49.196 0 0...
+Generating pppd.resolv.conf...Done
+04/26/2019 13:10:34 [29526] begin sysconfig linux
+04/26/2019 13:10:34 [29526] Gateway to FGT: 10.0.0.1
+04/26/2019 13:10:34 [29526] delete route 1.1.1.1
+04/26/2019 13:10:34 [29526] Add the route for 136.159.49.196(10.0.0.1)
+04/26/2019 13:10:34 [29526] router add default gw 10.56.40.36
+04/26/2019 13:27:11 [29429] rcv cmd:1 at state[1]
+04/26/2019 13:27:11 [29429] stopping ssl vpn tunnel[v4.4.2335]
+04/26/2019 13:27:11 [29429] kill_child:29437
+04/26/2019 13:27:11 [29429] kill_child:29434
+04/26/2019 13:27:11 [29434] signal rcved, logout now
+04/26/2019 13:27:11 [29437] killing pppd ...
+04/26/2019 13:27:11 [29437] kill_child:29439
+04/26/2019 13:27:11 [29434] ssl_write error return -1
+04/26/2019 13:27:11 [29437] kill_child:29526
+04/26/2019 13:27:11 [29429] tunnel terminated
+04/26/2019 13:27:11 [30351] begin cleanup linux...
+04/26/2019 13:27:11 [30351] restore /etc/resolv.conf
+04/26/2019 13:27:11 [30351] clean up route...
+04/26/2019 13:27:11 [30351] truncate pppd.log
+04/26/2019 13:27:11 [30351] truncate forticlientsslvpn.log
+04/26/2019 13:27:11 [29429] ssl vpn tunnel stopped
+04/26/2019 13:27:11 [29429] rcv cmd:2 at state[0]
+04/26/2019 14:29:01 [3574] set the loglevel to 1
+04/26/2019 14:29:01 [3634] set the loglevel to 1
+04/26/2019 14:29:01 [3634] sslvpn connection version:4.4.2335
+04/26/2019 14:29:01 [3634] rcv cmd:0 at state[0]
+04/26/2019 14:29:01 [3634] starting ssl vpn tunnel[4.4.2335]
+04/26/2019 14:29:01 [3638] route backup START
+04/26/2019 14:29:01 [3638] route backup DONE
+04/26/2019 14:29:01 [3639] execl /home/brenden/Programs/forticlientsslvpn/64bit/./helper/get_fortisslvpn_info /home/brenden/Programs/forticlientsslvpn/64bit/./helper gpvpn2.ucalgary.ca 10443   ...
+04/26/2019 14:29:01 [3639] trusted CA dir: /home/brenden/.fctsslvpn_trustca
+04/26/2019 14:29:01 [3639] set loglevel to 1
+04/26/2019 14:29:01 [3639] Peer's certificate is not valid. action is 1
+04/26/2019 14:29:01 [3639] peer's certificate: 
+Certificate:$    Data:$        Version: 3 (0x2)$        Serial Number:$            d8:0f:77:0e:af:de:87:3c:00:00:00:00:54:ce:65:b4$    Signature Algorithm: sha256WithRSAEncryption$        Issuer: C=US, O=Entrust, Inc., OU=See www.entrust.net/legal-terms, OU=(c) 2014 Entrust, Inc. - for authorized use only, CN=Entrust Certification Authority - L1M$        Validity$            Not Before: Apr 17 19:14:19 2018 GMT$            Not After : Apr 17 19:44:17 2020 GMT$        Subject: C=CA, ST=Alberta, L=Calgary/jurisdictionC=CA/jurisdictionST=Alberta, O=University of Calgary (Governors of the University of Calgary)/businessCategory=Private Organization, OU=Information Technologies/serialNumber=1966-4-29, CN=itv2.ucalgary.ca$        Subject Public Key Info:$            Public Key Algorithm: rsaEncryption$                Public-Key: (2048 bit)$                Modulus:$                    00:d6:90:eb:0f:21:98:62:2e:4a:36:62:8c:87:e2:$                    b0:fb:8d:58:e3:ba:49:8d:64:cc:0b:4b:7a:dc:bd:$                    15:f4:77:de:47:f8:20:e9:a2:7c:c6:0b:49:ee:02:$                    66:a0:83:fa:46:ed:05:5e:14:0b:3b:57:48:78:4b:$                    59:ec:43:08:1c:5a:dd:4b:50:01:a9:ef:05:91:3b:$                    28:15:e7:c7:71:d2:b7:c6:e2:e3:42:c6:db:74:7d:$                    81:11:61:98:b6:07:73:6a:a4:b8:fa:8d:8a:82:cb:$                    66:7e:cf:56:4c:ca:62:83:82:ff:ab:c2:33:48:2a:$                    44:bb:4f:8e:6c:a5:28:63:a9:35:8d:29:75:2f:4c:$                    24:11:e0:8d:7c:82:87:fa:56:98:c2:0e:f8:cd:13:$                    51:79:68:33:6a:3a:22:0a:ce:50:94:12:2d:dc:da:$                    6b:f0:35:92:4c:46:d8:13:ed:5a:47:9c:99:49:8f:$                    48:d3:f0:2f:20:6a:ad:92:22:2c:5b:b8:75:69:3d:$                    dc:b4:ef:20:22:70:69:88:b1:e6:2c:17:cc:37:35:$                    a8:a7:49:03:89:19:50:b0:33:3f:71:bc:9d:9a:78:$                    c0:9f:c2:09:c5:8f:9d:ea:58:c7:e5:cc:a9:e6:93:$                    a8:37:50:86:ec:bb:d0:e0:6c:f0:85:5e:96:5d:9f:$                    3a:8f$                Exponent: 65537 (0x10001)$        X509v3 extensions:$            X509v3 Subject Alternative Name: $                DNS:itv2.ucalgary.ca, DNS:gpvpn2.ucalgary.ca$            CT Precertificate SCTs: $                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : 55:81:D4:C2:16:90:36:01:4A:EA:0B:9B:57:3C:53:F0:$                                C0:E4:38:78:70:25:08:17:2F:A3:AA:1D:07:13:D3:0C$                    Timestamp : Apr 17 19:44:19.270 2018 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:46:02:21:00:F1:0D:F6:B5:04:D5:87:BF:9C:58:84:$                                AF:06:FF:01:78:04:9F:2D:BD:EC:CD:3F:5C:2A:69:70:$                                CD:99:57:B6:E1:02:21:00:AB:B6:E4:6E:8F:19:9D:5A:$                                FC:79:1B:2E:43:D0:EF:FA:E9:ED:25:47:08:C3:D8:CC:$                                21:80:56:2D:31:80:A3:AD$                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : DD:EB:1D:2B:7A:0D:4F:A6:20:8B:81:AD:81:68:70:7E:$                                2E:8E:9D:01:D5:5C:88:8D:3D:11:C4:CD:B6:EC:BE:CC$                    Timestamp : Apr 17 19:44:19.301 2018 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:45:02:20:6D:CF:D8:3E:F6:19:24:65:0E:A3:C4:C4:$                                9F:1A:31:C1:FC:F6:19:C4:15:DF:F8:86:29:CF:9B:9F:$                                84:F7:4F:9E:02:21:00:8B:DD:53:2C:C3:88:8C:9A:03:$                                A4:D2:C6:74:BC:B3:39:35:DC:1F:50:03:5F:AB:6D:99:$                                4B:E8:AD:5E:DF:A9:45$                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : EE:4B:BD:B7:75:CE:60:BA:E1:42:69:1F:AB:E1:9E:66:$                                A3:0F:7E:5F:B0:72:D8:83:00:C4:7B:89:7A:A8:FD:CB$                    Timestamp : Apr 17 19:44:19.355 2018 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:45:02:20:0F:85:15:C7:FE:CE:71:D4:7C:FC:AC:63:$                                44:2E:19:3E:5D:FC:9D:9F:5A:5E:DA:55:C8:65:5F:30:$                                83:6C:58:32:02:21:00:FF:F0:0C:EF:54:B9:D5:51:C0:$                                D7:82:C4:96:F4:F5:AB:C3:D1:D3:BE:F0:62:8C:80:38:$                                39:42:4C:92:57:43:33$                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : 6F:53:76:AC:31:F0:31:19:D8:99:00:A4:51:15:FF:77:$                                15:1C:11:D9:02:C1:00:29:06:8D:B2:08:9A:37:D9:13$                    Timestamp : Apr 17 19:44:19.581 2018 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:44:02:20:0E:6B:D7:E7:DD:3F:A4:01:60:E1:3F:83:$                                34:69:C0:52:56:BB:D8:DC:A8:36:5B:FF:AB:F6:B7:9A:$                                7F:A8:15:B1:02:20:16:A1:75:EB:56:5B:A1:56:25:0E:$                                18:32:1C:6A:E0:8B:F3:87:7A:22:45:F8:91:FD:E1:29:$                                61:02:AE:A8:C5:4D$            X509v3 Key Usage: critical$                Digital Signature, Key Encipherment$            X509v3 Extended Key Usage: $                TLS Web Server Authentication, TLS Web Client Authentication$            Authority Information Access: $                OCSP - URI:http://ocsp.entrust.net$                CA Issuers - URI:http://aia.entrust.net/l1m-chain256.cer$$            X509v3 CRL Distribution Points: $$                Full Name:$                  URI:http://crl.entrust.net/level1m.crl$$            X509v3 Certificate Policies: $                Policy: 2.16.840.1.114028.10.1.2$                  CPS: http://www.entrust.net/rpa$                Policy: 2.23.140.1.1$$            X509v3 Authority Key Identifier: $                keyid:C3:F7:D0:B5:2A:30:AD:AF:0D:91:21:70:39:54:DD:BC:89:70:C7:3A$$            X509v3 Subject Key Identifier: $                44:BB:6D:F7:42:ED:4C:6F:63:37:3D:6D:0F:04:9E:3B:2E:80:3D:83$            X509v3 Basic Constraints: $                CA:FALSE$    Signature Algorithm: sha256WithRSAEncryption$         cd:71:4b:ff:08:b9:2e:33:2a:33:9b:2f:28:ea:b2:e3:dd:11:$         7f:59:ff:95:a8:4d:92:ae:60:75:7f:8b:77:5c:8c:62:59:ea:$         88:df:26:3c:9a:61:40:a0:77:c2:bb:c3:bb:ef:a1:bd:99:27:$         69:3c:95:e7:c0:93:ca:46:12:f1:dd:a7:e6:af:20:63:5c:7f:$         11:f0:c9:54:f3:39:6d:eb:f0:9f:d8:2b:33:65:fd:07:c1:d6:$         b2:41:cc:70:d9:37:c9:5e:b0:b0:f2:1e:8d:ff:b8:ec:73:88:$         34:96:47:47:7a:e3:82:a3:42:c1:38:ac:fc:f5:71:2b:c3:c6:$         73:32:96:23:62:8a:06:c5:c7:69:0b:67:c7:69:b5:cb:a3:c3:$         fe:10:cc:ff:0e:83:1e:1f:7a:d7:c7:7e:f1:67:10:d4:62:b0:$         6c:35:a0:a5:90:3a:4d:56:21:3f:b8:3b:e5:bb:fd:35:be:1b:$         65:51:db:81:e5:5c:a2:c6:5d:49:fb:d1:1a:88:2b:3d:db:2a:$         5a:42:3e:ba:84:9b:2e:03:8f:83:6b:1c:ab:0c:b6:2a:b6:55:$         f1:d3:3c:76:c7:76:2c:36:97:55:a3:6a:f4:ad:43:c2:a5:df:$         15:5d:3d:03:c6:14:3b:d4:88:bc:c0:51:86:97:4a:8b:0b:15:$         21:04:a0:db$
+04/26/2019 14:29:03 [3639] realm is enabled: 
+04/26/2019 14:29:03 [3639] no Content-Length
+04/26/2019 14:29:03 [3639] try to get cookie for the first time: 98 :  SVPNNETWORKCOOKIE=; path=/remote/network; expires=Fri, 26-Apr-2019 20:29:03 GMT; secure; httponly
+04/26/2019 14:29:03 [3639] no Content-Length
+04/26/2019 14:29:03 [3639] cookie: SVPNCOOKIE=oN/YHhXk4IB4zVKsT80KO4zyPgHJKrCekJSrWueY6Zhz9ywpjyvXyFrQc8atHn7a%0afDOi2Ul1gVUnV1xI3rSj+KhfGstjdMRmFzfDMkjXhx+lqd57UePe1JOpr8P04AUt%0a5UV11V7gN3ZhIt2JXqKE/Uv2xPEO6YNS+b86/IKd89IXgpqiutxLnmX9RhjzwwNw%0aPcdlWIxVuEUM+z7/dWV+YQ==%0a
+04/26/2019 14:29:03 [3639] no Content-Length
+04/26/2019 14:29:03 [3639] no Content-Length
+04/26/2019 14:29:03 [3639] 0|gpvpn2.ucalgary.ca|10443|1||oN/YHhXk4IB4zVKsT80KO4zyPgHJKrCekJSrWueY6Zhz9ywpjyvXyFrQc8atHn7a%0afDOi2Ul1gVUnV1xI3rSj+KhfGstjdMRmFzfDMkjXhx+lqd57UePe1JOpr8P04AUt%0a5UV11V7gN3ZhIt2JXqKE/Uv2xPEO6YNS+b86/IKd89IXgpqiutxLnmX9RhjzwwNw%0aPcdlWIxVuEUM+z7/dWV+YQ==%0a|0
+04/26/2019 14:29:03 [3634] ssl vpn tunnel started
+04/26/2019 14:29:03 [3641] server=gpvpn2.ucalgary.ca[gpvpn2.ucalgary.ca] port=10443[10443] version=1 tunnel= cookie=oN/YHhXk4IB4zVKsT80KO4zyPgHJKrCekJSrWueY6Zhz9ywpjyvXyFrQc8atHn7a%0afDOi2Ul1gVUnV1xI3rSj+KhfGstjdMRmFzfDMkjXhx+lqd57UePe1JOpr8P04AUt%0a5UV11V7gN3ZhIt2JXqKE/Uv2xPEO6YNS+b86/IKd89IXgpqiutxLnmX9RhjzwwNw%0aPcdlWIxVuEUM+z7/dWV+YQ==%0a exclusive routing: 0
+
+04/26/2019 14:29:03 [3641] starting pppd
+04/26/2019 14:29:03 [3641] use tty:/dev/pts/1
+04/26/2019 14:29:03 [3641] connecting to gpvpn2.ucalgary.ca:10443
+04/26/2019 14:29:03 [3641] [xml config]: GET /remote/fortisslvpn_xml ... (received 867 bytes): 
+HTTP/1.1 200 OK
+Date: Fri, 26 Apr 2019 20:29:03 GMT
+Set-Cookie: SVPNCOOKIE=oN/YHhXk4IB4zVKsT80KO4zyPgHJKrCekJSrWueY6Zhz9ywpjyvXyFrQc8atHn7a%0afDOi2Ul1gVUnV1xI3rSj+KhfGstjdMRmFzfDMkjXhx+lqd57UePe1JOpr8P04AUt%0a5UV11V7gN3ZhIt2JXqKE/Uv2xPEO6YNS+b86/IKd89IXgpqiutxLnmX9RhjzwwNw%0aPcdlWIxVuEUM+z7/dWV+YQ==%0a; path=/; secure; httponly
+Transfer-Encoding: chunked
+Content-Type: text/xml
+X-Frame-Options: SAMEORIGIN
+
+<?xml version='1.0' encoding='utf-8'?><sslvpn-tunnel ver='1' patch='1'><fos platform='FG300C' major='5' minor='02' patch='13' build='0762' branch='762' /><client-config save-password='off' keep-alive='off' auto-connect='off' /><ipv4><dns ip='136.159.1.21' /><dns ip='136.159.34.201' /><wins ip='136.159.39.3' /><wins ip='136.159.39.4' /><assigned-addr ipv4='10.56.40.18' /></ipv4><idle-timeout val='7200' /><auth-timeout val='28800' /></sslvpn-tunnel>
+----
+
+04/26/2019 14:29:03 [3641] dns suffix: 
+
+04/26/2019 14:29:03 [3641] ssl read failed[error:00000005:lib(0):func(0):DH lib]:[Connection reset by peer]
+04/26/2019 14:29:04 [3634] rcv cmd:1 at state[1]
+04/26/2019 14:29:04 [3634] stopping ssl vpn tunnel[v4.4.2335]
+04/26/2019 14:29:04 [3634] kill_child:3641
+04/26/2019 14:29:04 [3634] kill_child:3639
+04/26/2019 14:29:04 [3641] killing pppd ...
+04/26/2019 14:29:04 [3641] kill_child:3643
+04/26/2019 14:29:04 [3639] signal rcved, logout now
+04/26/2019 14:29:04 [3634] tunnel terminated
+04/26/2019 14:29:04 [3683] begin cleanup linux...
+04/26/2019 14:29:04 [3683] restore /etc/resolv.conf
+04/26/2019 14:29:04 [3683] clean up route...
+04/26/2019 14:29:04 [3683] truncate pppd.log
+04/26/2019 14:29:04 [3683] truncate forticlientsslvpn.log
+04/26/2019 14:29:04 [3634] ssl vpn tunnel stopped
+04/26/2019 14:29:04 [3634] rcv cmd:2 at state[0]
+04/26/2019 14:29:12 [3574] set the loglevel to 1
+04/26/2019 14:29:12 [3730] set the loglevel to 1
+04/26/2019 14:29:12 [3730] sslvpn connection version:4.4.2335
+04/26/2019 14:29:12 [3730] rcv cmd:0 at state[0]
+04/26/2019 14:29:12 [3730] starting ssl vpn tunnel[4.4.2335]
+04/26/2019 14:29:12 [3734] route backup START
+04/26/2019 14:29:12 [3734] route backup DONE
+04/26/2019 14:29:12 [3736] execl /home/brenden/Programs/forticlientsslvpn/64bit/./helper/get_fortisslvpn_info /home/brenden/Programs/forticlientsslvpn/64bit/./helper gpvpn2.ucalgary.ca 10443   ...
+04/26/2019 14:29:12 [3736] trusted CA dir: /home/brenden/.fctsslvpn_trustca
+04/26/2019 14:29:12 [3736] set loglevel to 1
+04/26/2019 14:29:12 [3736] Peer's certificate is not valid. action is 1
+04/26/2019 14:29:12 [3736] peer's certificate: 
+Certificate:$    Data:$        Version: 3 (0x2)$        Serial Number:$            d8:0f:77:0e:af:de:87:3c:00:00:00:00:54:ce:65:b4$    Signature Algorithm: sha256WithRSAEncryption$        Issuer: C=US, O=Entrust, Inc., OU=See www.entrust.net/legal-terms, OU=(c) 2014 Entrust, Inc. - for authorized use only, CN=Entrust Certification Authority - L1M$        Validity$            Not Before: Apr 17 19:14:19 2018 GMT$            Not After : Apr 17 19:44:17 2020 GMT$        Subject: C=CA, ST=Alberta, L=Calgary/jurisdictionC=CA/jurisdictionST=Alberta, O=University of Calgary (Governors of the University of Calgary)/businessCategory=Private Organization, OU=Information Technologies/serialNumber=1966-4-29, CN=itv2.ucalgary.ca$        Subject Public Key Info:$            Public Key Algorithm: rsaEncryption$                Public-Key: (2048 bit)$                Modulus:$                    00:d6:90:eb:0f:21:98:62:2e:4a:36:62:8c:87:e2:$                    b0:fb:8d:58:e3:ba:49:8d:64:cc:0b:4b:7a:dc:bd:$                    15:f4:77:de:47:f8:20:e9:a2:7c:c6:0b:49:ee:02:$                    66:a0:83:fa:46:ed:05:5e:14:0b:3b:57:48:78:4b:$                    59:ec:43:08:1c:5a:dd:4b:50:01:a9:ef:05:91:3b:$                    28:15:e7:c7:71:d2:b7:c6:e2:e3:42:c6:db:74:7d:$                    81:11:61:98:b6:07:73:6a:a4:b8:fa:8d:8a:82:cb:$                    66:7e:cf:56:4c:ca:62:83:82:ff:ab:c2:33:48:2a:$                    44:bb:4f:8e:6c:a5:28:63:a9:35:8d:29:75:2f:4c:$                    24:11:e0:8d:7c:82:87:fa:56:98:c2:0e:f8:cd:13:$                    51:79:68:33:6a:3a:22:0a:ce:50:94:12:2d:dc:da:$                    6b:f0:35:92:4c:46:d8:13:ed:5a:47:9c:99:49:8f:$                    48:d3:f0:2f:20:6a:ad:92:22:2c:5b:b8:75:69:3d:$                    dc:b4:ef:20:22:70:69:88:b1:e6:2c:17:cc:37:35:$                    a8:a7:49:03:89:19:50:b0:33:3f:71:bc:9d:9a:78:$                    c0:9f:c2:09:c5:8f:9d:ea:58:c7:e5:cc:a9:e6:93:$                    a8:37:50:86:ec:bb:d0:e0:6c:f0:85:5e:96:5d:9f:$                    3a:8f$                Exponent: 65537 (0x10001)$        X509v3 extensions:$            X509v3 Subject Alternative Name: $                DNS:itv2.ucalgary.ca, DNS:gpvpn2.ucalgary.ca$            CT Precertificate SCTs: $                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : 55:81:D4:C2:16:90:36:01:4A:EA:0B:9B:57:3C:53:F0:$                                C0:E4:38:78:70:25:08:17:2F:A3:AA:1D:07:13:D3:0C$                    Timestamp : Apr 17 19:44:19.270 2018 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:46:02:21:00:F1:0D:F6:B5:04:D5:87:BF:9C:58:84:$                                AF:06:FF:01:78:04:9F:2D:BD:EC:CD:3F:5C:2A:69:70:$                                CD:99:57:B6:E1:02:21:00:AB:B6:E4:6E:8F:19:9D:5A:$                                FC:79:1B:2E:43:D0:EF:FA:E9:ED:25:47:08:C3:D8:CC:$                                21:80:56:2D:31:80:A3:AD$                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : DD:EB:1D:2B:7A:0D:4F:A6:20:8B:81:AD:81:68:70:7E:$                                2E:8E:9D:01:D5:5C:88:8D:3D:11:C4:CD:B6:EC:BE:CC$                    Timestamp : Apr 17 19:44:19.301 2018 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:45:02:20:6D:CF:D8:3E:F6:19:24:65:0E:A3:C4:C4:$                                9F:1A:31:C1:FC:F6:19:C4:15:DF:F8:86:29:CF:9B:9F:$                                84:F7:4F:9E:02:21:00:8B:DD:53:2C:C3:88:8C:9A:03:$                                A4:D2:C6:74:BC:B3:39:35:DC:1F:50:03:5F:AB:6D:99:$                                4B:E8:AD:5E:DF:A9:45$                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : EE:4B:BD:B7:75:CE:60:BA:E1:42:69:1F:AB:E1:9E:66:$                                A3:0F:7E:5F:B0:72:D8:83:00:C4:7B:89:7A:A8:FD:CB$                    Timestamp : Apr 17 19:44:19.355 2018 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:45:02:20:0F:85:15:C7:FE:CE:71:D4:7C:FC:AC:63:$                                44:2E:19:3E:5D:FC:9D:9F:5A:5E:DA:55:C8:65:5F:30:$                                83:6C:58:32:02:21:00:FF:F0:0C:EF:54:B9:D5:51:C0:$                                D7:82:C4:96:F4:F5:AB:C3:D1:D3:BE:F0:62:8C:80:38:$                                39:42:4C:92:57:43:33$                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : 6F:53:76:AC:31:F0:31:19:D8:99:00:A4:51:15:FF:77:$                                15:1C:11:D9:02:C1:00:29:06:8D:B2:08:9A:37:D9:13$                    Timestamp : Apr 17 19:44:19.581 2018 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:44:02:20:0E:6B:D7:E7:DD:3F:A4:01:60:E1:3F:83:$                                34:69:C0:52:56:BB:D8:DC:A8:36:5B:FF:AB:F6:B7:9A:$                                7F:A8:15:B1:02:20:16:A1:75:EB:56:5B:A1:56:25:0E:$                                18:32:1C:6A:E0:8B:F3:87:7A:22:45:F8:91:FD:E1:29:$                                61:02:AE:A8:C5:4D$            X509v3 Key Usage: critical$                Digital Signature, Key Encipherment$            X509v3 Extended Key Usage: $                TLS Web Server Authentication, TLS Web Client Authentication$            Authority Information Access: $                OCSP - URI:http://ocsp.entrust.net$                CA Issuers - URI:http://aia.entrust.net/l1m-chain256.cer$$            X509v3 CRL Distribution Points: $$                Full Name:$                  URI:http://crl.entrust.net/level1m.crl$$            X509v3 Certificate Policies: $                Policy: 2.16.840.1.114028.10.1.2$                  CPS: http://www.entrust.net/rpa$                Policy: 2.23.140.1.1$$            X509v3 Authority Key Identifier: $                keyid:C3:F7:D0:B5:2A:30:AD:AF:0D:91:21:70:39:54:DD:BC:89:70:C7:3A$$            X509v3 Subject Key Identifier: $                44:BB:6D:F7:42:ED:4C:6F:63:37:3D:6D:0F:04:9E:3B:2E:80:3D:83$            X509v3 Basic Constraints: $                CA:FALSE$    Signature Algorithm: sha256WithRSAEncryption$         cd:71:4b:ff:08:b9:2e:33:2a:33:9b:2f:28:ea:b2:e3:dd:11:$         7f:59:ff:95:a8:4d:92:ae:60:75:7f:8b:77:5c:8c:62:59:ea:$         88:df:26:3c:9a:61:40:a0:77:c2:bb:c3:bb:ef:a1:bd:99:27:$         69:3c:95:e7:c0:93:ca:46:12:f1:dd:a7:e6:af:20:63:5c:7f:$         11:f0:c9:54:f3:39:6d:eb:f0:9f:d8:2b:33:65:fd:07:c1:d6:$         b2:41:cc:70:d9:37:c9:5e:b0:b0:f2:1e:8d:ff:b8:ec:73:88:$         34:96:47:47:7a:e3:82:a3:42:c1:38:ac:fc:f5:71:2b:c3:c6:$         73:32:96:23:62:8a:06:c5:c7:69:0b:67:c7:69:b5:cb:a3:c3:$         fe:10:cc:ff:0e:83:1e:1f:7a:d7:c7:7e:f1:67:10:d4:62:b0:$         6c:35:a0:a5:90:3a:4d:56:21:3f:b8:3b:e5:bb:fd:35:be:1b:$         65:51:db:81:e5:5c:a2:c6:5d:49:fb:d1:1a:88:2b:3d:db:2a:$         5a:42:3e:ba:84:9b:2e:03:8f:83:6b:1c:ab:0c:b6:2a:b6:55:$         f1:d3:3c:76:c7:76:2c:36:97:55:a3:6a:f4:ad:43:c2:a5:df:$         15:5d:3d:03:c6:14:3b:d4:88:bc:c0:51:86:97:4a:8b:0b:15:$         21:04:a0:db$
+04/26/2019 14:29:12 [3736] realm is enabled: 
+04/26/2019 14:29:12 [3736] no Content-Length
+04/26/2019 14:29:12 [3736] try to get cookie for the first time: 98 :  SVPNNETWORKCOOKIE=; path=/remote/network; expires=Fri, 26-Apr-2019 20:29:12 GMT; secure; httponly
+04/26/2019 14:29:13 [3736] no Content-Length
+04/26/2019 14:29:13 [3736] cookie: SVPNCOOKIE=oN/YHhXk4IB4zVKsT80KO4zyPgHJKrCekJSrWueY6Zhz9ywpjyvXyFrQc8atHn7a%0afDOi2Ul1gVUnV1xI3rSj+KhfGstjdMRmFzfDMkjXhx+lqd57UePe1JOpr8P04AUt%0a5UV11V7gN3ZhIt2JXqKE/QCIUDWJkyFrw84CevxkmHu/HwCx2pkC6yBmLj+cR1g5%0a0e8GVUC/CQRvRjIbFLIDag==%0a
+04/26/2019 14:29:13 [3736] no Content-Length
+04/26/2019 14:29:13 [3736] no Content-Length
+04/26/2019 14:29:13 [3736] 0|gpvpn2.ucalgary.ca|10443|1||oN/YHhXk4IB4zVKsT80KO4zyPgHJKrCekJSrWueY6Zhz9ywpjyvXyFrQc8atHn7a%0afDOi2Ul1gVUnV1xI3rSj+KhfGstjdMRmFzfDMkjXhx+lqd57UePe1JOpr8P04AUt%0a5UV11V7gN3ZhIt2JXqKE/QCIUDWJkyFrw84CevxkmHu/HwCx2pkC6yBmLj+cR1g5%0a0e8GVUC/CQRvRjIbFLIDag==%0a|0
+04/26/2019 14:29:13 [3730] ssl vpn tunnel started
+04/26/2019 14:29:13 [3738] server=gpvpn2.ucalgary.ca[gpvpn2.ucalgary.ca] port=10443[10443] version=1 tunnel= cookie=oN/YHhXk4IB4zVKsT80KO4zyPgHJKrCekJSrWueY6Zhz9ywpjyvXyFrQc8atHn7a%0afDOi2Ul1gVUnV1xI3rSj+KhfGstjdMRmFzfDMkjXhx+lqd57UePe1JOpr8P04AUt%0a5UV11V7gN3ZhIt2JXqKE/QCIUDWJkyFrw84CevxkmHu/HwCx2pkC6yBmLj+cR1g5%0a0e8GVUC/CQRvRjIbFLIDag==%0a exclusive routing: 0
+
+04/26/2019 14:29:13 [3738] starting pppd
+04/26/2019 14:29:13 [3738] use tty:/dev/pts/1
+04/26/2019 14:29:13 [3738] connecting to gpvpn2.ucalgary.ca:10443
+04/26/2019 14:29:13 [3738] [xml config]: GET /remote/fortisslvpn_xml ... (received 867 bytes): 
+HTTP/1.1 200 OK
+Date: Fri, 26 Apr 2019 20:29:12 GMT
+Set-Cookie: SVPNCOOKIE=oN/YHhXk4IB4zVKsT80KO4zyPgHJKrCekJSrWueY6Zhz9ywpjyvXyFrQc8atHn7a%0afDOi2Ul1gVUnV1xI3rSj+KhfGstjdMRmFzfDMkjXhx+lqd57UePe1JOpr8P04AUt%0a5UV11V7gN3ZhIt2JXqKE/QCIUDWJkyFrw84CevxkmHu/HwCx2pkC6yBmLj+cR1g5%0a0e8GVUC/CQRvRjIbFLIDag==%0a; path=/; secure; httponly
+Transfer-Encoding: chunked
+Content-Type: text/xml
+X-Frame-Options: SAMEORIGIN
+
+<?xml version='1.0' encoding='utf-8'?><sslvpn-tunnel ver='1' patch='1'><fos platform='FG300C' major='5' minor='02' patch='13' build='0762' branch='762' /><client-config save-password='off' keep-alive='off' auto-connect='off' /><ipv4><dns ip='136.159.1.21' /><dns ip='136.159.34.201' /><wins ip='136.159.39.3' /><wins ip='136.159.39.4' /><assigned-addr ipv4='10.56.40.18' /></ipv4><idle-timeout val='7200' /><auth-timeout val='28800' /></sslvpn-tunnel>
+----
+
+04/26/2019 14:29:13 [3738] dns suffix: 
+
+04/26/2019 14:29:13 [3738] Got local address from ppp, interface will be  up
+04/26/2019 14:29:15 [3738] ppp interface is up
+04/26/2019 14:29:15 [3738] run_scutil 136.159.49.196 0 0...
+Generating pppd.resolv.conf...Done
+04/26/2019 14:29:16 [3839] begin sysconfig linux
+04/26/2019 14:29:16 [3839] Gateway to FGT: 10.0.0.1
+04/26/2019 14:29:16 [3839] delete route 1.1.1.1
+04/26/2019 14:29:16 [3839] Add the route for 136.159.49.196(10.0.0.1)
+04/26/2019 14:29:16 [3839] router add default gw 10.56.40.18
+04/26/2019 14:30:06 [3736] signal rcved, logout now
+04/26/2019 14:30:06 [3730] kill_child:3738
+04/26/2019 14:30:06 [3738] killing pppd ...
+04/26/2019 14:30:06 [3738] kill_child:3740
+04/26/2019 14:30:06 [3730] kill_child:3736
+04/26/2019 14:30:06 [3738] killing pppd ...
+04/26/2019 14:30:06 [3738] kill_child:3839
+04/26/2019 14:30:06 [3909] begin cleanup linux...
+04/26/2019 14:30:06 [3909] restore /etc/resolv.conf
+04/26/2019 14:30:06 [3909] clean up route...
+04/26/2019 14:30:06 [3909] truncate pppd.log
+04/26/2019 14:30:06 [3909] truncate forticlientsslvpn.log
+04/26/2019 14:30:06 [3730] FortiClient SSLVPN[4.4.2335] stopped
+04/26/2019 14:30:06 [3574] send command error:Broken pipe

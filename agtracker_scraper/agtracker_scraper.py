@@ -21,13 +21,6 @@ FROM_PWD    = "bicktruck2018!"
 SMTP_SERVER = "imap.gmail.com"
 SMTP_PORT   = 993
 
-TARGET_PHONE = "+13065827330"
-FROM_PHONE = "+13067003527"
-
-SID = "ACdb1cfa0b3d09eef6ad7c768f45f22112"
-TOKEN = "a6683b8e4f07db3507494ff740abe5cb"
-
-
 LOGIN_URL = "https://agtracker.nutrien.com/AgTracker/login.jsp"
 RES_URL = "https://agtracker.nutrien.com/AgTracker/secure/searchCarrierReleases_results.jsp?carrierNumber=0000100957&searchBy=unshipped&startDate=%s&endDate=%s&origin=ALL&_=1556391958718"
 AUTH_URL = "https://agtracker.nutrien.com/AgTracker/Authentication"

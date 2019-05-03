@@ -37,10 +37,16 @@ TAR_OPTIONS = "-zcvf"
 RSYNC_OPTIONS = "-avzh"
 MKDIR_OPTIONS = "-p"
 
-START_NOTIFY = '/usr/bin/notify-send -i /usr/local/share/icons/start_backup.png "Starting backup to SSD!"'
+START_NOTIFY = "/usr/bin/notify-send -i /usr/local/share/icons/start_backup.png 'Starting backup to SSD!'"
 SUCCESS_NOTIFY = '/usr/bin/notify-send -i /usr/local/share/icons/success.png "Successfully backed up to SSD!"'
 FAIL_NOTIFY = '/usr/bin/notify-send -i /usr/local/share/icons/fail.png "Failed backed up to SSD!\n%s"'
 INFO_NOTIFY = '/usr/bin/notify-send -i /usr/local/share/icons/start_backup.png "%s"'
+
+START_NOTIFY = 'DISPLAY=:0.0 su brenden -c "%s"' % START_NOTIFY
+SUCCESS_NOTIFY = 'DISPLAY=:0.0 su brenden -c "%s"' % SUCCESS_NOTIFY
+FAIL_NOTIFY = 'DISPLAY=:0.0 su brenden -c "%s"' % FAIL_NOTIFY
+INFO_NOTIFY = 'DISPLAY=:0.0 su brenden -c "%s"' % INFO_NOTIFY
+
 
 for el in EXCLUDES:
     RSYNC_OPTIONS += " --exclude '%s'" % el
@@ -64,6 +70,8 @@ def log_info(inf):
 # Main Function
 def main():
 
+    time.sleep(5)
+
     if (os.path.isdir(MOUNT_POINT)):
         info = "Found Volume. Starting to sync home directory."
         log_info(info)
@@ -78,11 +86,11 @@ def main():
                 os.system(INFO_NOTIFY % info)
                 return 0
 
+        os.system(START_NOTIFY)
         if (not os.path.isdir(BACKUP_LOC)):
             print "Creating backup directory: %s" % BACKUP_LOC
             os.system("%s %s %s" %(PROG_MKDIR, MKDIR_OPTIONS, BACKUP_LOC))
 
-        os.system(START_NOTIFY)
         print "Running: %s %s %s %s" %(PROG_RSYNC, RSYNC_OPTIONS, HOME_LOC, BACKUP_LOC)
         ret = os.system("%s %s %s %s > /dev/null" %(PROG_RSYNC, RSYNC_OPTIONS, HOME_LOC, BACKUP_LOC))
         if (ret):
@@ -108,13 +116,13 @@ def main():
             return 1
 
         info = "Done!"
-        log_info(info)
         os.system(SUCCESS_NOTIFY)
+        log_info(info)
 
     else:
         info = "Volume is not mounted. Cannot sync home directory. Aborting"
-        log_info(info)
         os.system(FAIL_NOTIFY % info)
+        log_info(info)
 
     return 0
 

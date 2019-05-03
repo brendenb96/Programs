@@ -1,0 +1,5 @@
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=""
+
+0 * * * * brenden /usr/bin/python2.7 /home/brenden/Programs/agtracker_scraper/agtracker_scraper.py &> /tmp/agtracker_scraper_output

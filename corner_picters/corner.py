@@ -3,14 +3,15 @@
 import sys
 from PIL import Image
 
-SAMPLE_SIZE = 300
+SAMPLE_SIZE = 100
 SAMPLE_RANGE = range(0,SAMPLE_SIZE)
 REPLACE_PIXEL = (255,0,0)
+BRIGHTNESS_THRESHOLD = 100
 
 def main():
 
-    imagePath = "picture.jpeg"
-    newImagePath = "picture2.jpeg"
+    imagePath = "recent_colour_average_buffer0.png"
+    newImagePath = "out.png"
     im = Image.open(imagePath)
     pix = im.load()
 
@@ -83,6 +84,8 @@ def main():
     se_avg = se_sum / sample_count
     print "SE AVG: %s" % se_avg
 
+    total_avg = (nw_avg + sw_avg + ne_avg + se_avg)/4
+    print "Total Avg: %s" % total_avg
     im.save(newImagePath)
 
     return 0

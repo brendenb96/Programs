@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Icon=/home/brenden/Pictures/Icons/google-calendar.svg
+Name=Google Calendar
+Comment=Open Google Calendar Online
+Exec=/usr/local/bin/google-calendar
+Categories=Utility;
+

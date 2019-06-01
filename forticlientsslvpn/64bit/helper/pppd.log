@@ -1,3 +1,9 @@
+sent [IPCP ConfNak id=0x4e <addr 1.1.1.1>]
+rcvd [IPCP ConfReq id=0x4f <addr 136.159.49.196>]
+sent [IPCP ConfNak id=0x4f <addr 1.1.1.1>]
+rcvd [IPCP ConfReq id=0x50 <addr 136.159.49.196>]
+sent [IPCP ConfNak id=0x50 <addr 1.1.1.1>]
+rcvd [IPCP ConfReq id=0x51 <addr 136.159.49.196>]
 sent [IPCP ConfNak id=0x51 <addr 1.1.1.1>]
 rcvd [IPCP ConfReq id=0x52 <addr 136.159.49.196>]
 sent [IPCP ConfNak id=0x52 <addr 1.1.1.1>]
@@ -39,52 +45,48 @@ rcvd [IPCP ConfReq id=0x64 <addr 136.159.49.196>]
 sent [IPCP ConfNak id=0x64 <addr 1.1.1.1>]
 rcvd [IPCP ConfReq id=0x65 <addr 136.159.49.196>]
 sent [IPCP ConfRej id=0x65 <addr 136.159.49.196>]
-rcvd [IPCP ConfReq id=0x66 <addrs 136.159.49.196 10.56.40.36>]
-sent [IPCP ConfRej id=0x66 <addrs 136.159.49.196 10.56.40.36>]
+rcvd [IPCP ConfReq id=0x66 <addrs 136.159.49.196 10.56.40.13>]
+sent [IPCP ConfRej id=0x66 <addrs 136.159.49.196 10.56.40.13>]
 rcvd [IPCP ConfReq id=0x67]
 sent [IPCP ConfAck id=0x67]
-local  IP address 10.56.40.36
+local  IP address 10.56.40.13
 remote IP address 1.1.1.1
 primary   DNS address 136.159.1.21
 secondary DNS address 136.159.34.201
-Script /etc/ppp/ip-up started (pid 29482)
-Script /etc/ppp/ip-up finished (pid 29482), status = 0x0
+Script /etc/ppp/ip-up started (pid 3608)
+Script /etc/ppp/ip-up finished (pid 3608), status = 0x0
 Modem hangup
-Connect time 16.7 minutes.
-Sent 1699659 bytes, received 10739430 bytes.
-Script /etc/ppp/ip-down started (pid 30352)
+Connect time 25.8 minutes.
+Sent 3372046 bytes, received 2596939 bytes.
+Script /etc/ppp/ip-down started (pid 4628)
 Connection terminated.
-Script /etc/ppp/ip-down finished (pid 30352), status = 0x0
-using channel 3
+Waiting for 1 child processes...
+  script /etc/ppp/ip-down, pid 4628
+Script /etc/ppp/ip-down finished (pid 4628), status = 0x0
+using channel 8
 Using interface ppp0
 Connect: ppp0 <--> /dev/pts/1
-sent [LCP ConfReq id=0x1 <mru 1354> <magic 0x697f1cd6>]
-Modem hangup
-Connection terminated.
-using channel 4
-Using interface ppp0
-Connect: ppp0 <--> /dev/pts/1
-sent [LCP ConfReq id=0x1 <mru 1354> <magic 0x54bd9e33>]
-rcvd [LCP ConfReq id=0x1 <magic 0x25423968>]
-sent [LCP ConfAck id=0x1 <magic 0x25423968>]
-rcvd [LCP ConfAck id=0x1 <mru 1354> <magic 0x54bd9e33>]
-sent [LCP EchoReq id=0x0 magic=0x54bd9e33]
+sent [LCP ConfReq id=0x1 <mru 1354> <magic 0xafbd4a0d>]
+rcvd [LCP ConfReq id=0x1 <magic 0x6712aefe>]
+sent [LCP ConfAck id=0x1 <magic 0x6712aefe>]
+rcvd [LCP ConfAck id=0x1 <mru 1354> <magic 0xafbd4a0d>]
+sent [LCP EchoReq id=0x0 magic=0xafbd4a0d]
 sent [CCP ConfReq id=0x1 <deflate 15> <deflate(old#) 15> <bsd v1 15>]
 sent [IPCP ConfReq id=0x1 <compress VJ 0f 01> <addr 0.0.0.0> <ms-dns1 0.0.0.0> <ms-dns2 0.0.0.0>]
 rcvd [IPCP ConfReq id=0x1 <addr 136.159.49.196>]
 sent [IPCP ConfNak id=0x1 <addr 1.1.1.1>]
-rcvd [LCP EchoRep id=0x0 magic=0x25423968]
+rcvd [LCP EchoRep id=0x0 magic=0x6712aefe]
 rcvd [LCP ProtRej id=0x2 80 fd 01 01 00 0f 1a 04 78 00 18 04 78 00 15 03 2f 00 00]
 Protocol-Reject for 'Compression Control Protocol' (0x80fd) received
 rcvd [IPCP ConfRej id=0x1 <compress VJ 0f 01>]
 sent [IPCP ConfReq id=0x2 <addr 0.0.0.0> <ms-dns1 0.0.0.0> <ms-dns2 0.0.0.0>]
 rcvd [IPCP ConfReq id=0x2 <addr 136.159.49.196>]
 sent [IPCP ConfNak id=0x2 <addr 1.1.1.1>]
-rcvd [IPCP ConfNak id=0x2 <addr 10.56.40.18> <ms-dns1 136.159.1.21> <ms-dns2 136.159.34.201>]
-sent [IPCP ConfReq id=0x3 <addr 10.56.40.18> <ms-dns1 136.159.1.21> <ms-dns2 136.159.34.201>]
+rcvd [IPCP ConfNak id=0x2 <addr 10.56.40.20> <ms-dns1 136.159.1.21> <ms-dns2 136.159.34.201>]
+sent [IPCP ConfReq id=0x3 <addr 10.56.40.20> <ms-dns1 136.159.1.21> <ms-dns2 136.159.34.201>]
 rcvd [IPCP ConfReq id=0x3 <addr 136.159.49.196>]
 sent [IPCP ConfNak id=0x3 <addr 1.1.1.1>]
-rcvd [IPCP ConfAck id=0x3 <addr 10.56.40.18> <ms-dns1 136.159.1.21> <ms-dns2 136.159.34.201>]
+rcvd [IPCP ConfAck id=0x3 <addr 10.56.40.20> <ms-dns1 136.159.1.21> <ms-dns2 136.159.34.201>]
 rcvd [IPCP ConfReq id=0x4 <addr 136.159.49.196>]
 sent [IPCP ConfNak id=0x4 <addr 1.1.1.1>]
 rcvd [IPCP ConfReq id=0x5 <addr 136.159.49.196>]
@@ -281,21 +283,19 @@ rcvd [IPCP ConfReq id=0x64 <addr 136.159.49.196>]
 sent [IPCP ConfNak id=0x64 <addr 1.1.1.1>]
 rcvd [IPCP ConfReq id=0x65 <addr 136.159.49.196>]
 sent [IPCP ConfRej id=0x65 <addr 136.159.49.196>]
-rcvd [IPCP ConfReq id=0x66 <addrs 136.159.49.196 10.56.40.18>]
-sent [IPCP ConfRej id=0x66 <addrs 136.159.49.196 10.56.40.18>]
+rcvd [IPCP ConfReq id=0x66 <addrs 136.159.49.196 10.56.40.20>]
+sent [IPCP ConfRej id=0x66 <addrs 136.159.49.196 10.56.40.20>]
 rcvd [IPCP ConfReq id=0x67]
 sent [IPCP ConfAck id=0x67]
-local  IP address 10.56.40.18
+local  IP address 10.56.40.20
 remote IP address 1.1.1.1
 primary   DNS address 136.159.1.21
 secondary DNS address 136.159.34.201
-Script /etc/ppp/ip-up started (pid 3783)
-Script /etc/ppp/ip-up finished (pid 3783), status = 0x0
-Terminating on signal 2
-Connect time 0.9 minutes.
-Sent 49775 bytes, received 55113 bytes.
-Script /etc/ppp/ip-down started (pid 3911)
-sent [LCP TermReq id=0x2 "User request"]
+Script /etc/ppp/ip-up started (pid 5644)
+Script /etc/ppp/ip-up finished (pid 5644), status = 0x0
 Modem hangup
+Connect time 23.9 minutes.
+Sent 3057355 bytes, received 5607241 bytes.
+Script /etc/ppp/ip-down started (pid 6649)
 Connection terminated.
-Script /etc/ppp/ip-down finished (pid 3911), status = 0x0
+Script /etc/ppp/ip-down finished (pid 6649), status = 0x0

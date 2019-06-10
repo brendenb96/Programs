@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cmd="xset dpms force on && loginctl unlock-session"
+sh -c 'xset dpms force on && loginctl unlock-session'

@@ -1,0 +1,4 @@
+#!/bin/bash
+cmd="xdg-screensaver lock && sleep 0.3 && xset dpms force off"
+dbus-send --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Pause
+sh -c 'xdg-screensaver lock && sleep 0.3 && xset dpms force off'

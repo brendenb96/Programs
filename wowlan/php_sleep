@@ -1,0 +1,9 @@
+#!/bin/bash
+ls /dev/pts/0  &> /dev/null
+if [ $? -eq 2 ]; then
+   echo "Terminal not open!"
+else
+    echo "Going to sleep."
+    ttyecho -n /dev/pts/0 /home/brenden/Tools/wowlan/google_sleep
+fi
+

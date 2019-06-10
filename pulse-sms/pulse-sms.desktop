@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Icon=/home/brenden/Pictures/icons/pulse-sms.png
+Name=Pulse SMS
+Comment=Open Pulse SMS
+Exec=/usr/local/bin/pulse-sms
+Categories=Utility;
+

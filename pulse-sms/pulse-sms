@@ -1,0 +1,2 @@
+#!/bin/bash
+google-chrome https://pulsesms.app/ --new-window && sleep 0.5 && wmctrl -r ":ACTIVE:" -e 0,1982,1080,1920,1080

@@ -1,0 +1,13 @@
+#!/bin/bash
+ls /dev/pts/0  &> /dev/null
+if [ $? -eq 2 ]; then
+   echo "Terminal not open!"
+else
+    if [[ $# -eq 1 ]] ; then
+    echo "Waking Up with Music."
+    ttyecho -n /dev/pts/0 /home/brenden/Tools/wowlan/google_awake_music
+    else
+    echo "Waking Up."
+    ttyecho -n /dev/pts/0 /home/brenden/Tools/wowlan/google_awake
+    fi
+fi

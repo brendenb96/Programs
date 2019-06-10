@@ -16,7 +16,7 @@ except Exception:
 
 SEARCHDIRS = ["/home/%s" % getpass.getuser() ,"/usr/local/src"]
 SEARCHKEY = ".git"
-IGNORE = ["multi-monitors-add-on"]
+IGNORE = ["multi-monitors-add-on","Mailspring-OnLevel-Theme"]
 
 REMOTE_STAT_COMMAND = "cd %s && git fetch --dry-run"
 LOCAL_STAT_COMMAND = "cd %s && git status"
@@ -52,9 +52,12 @@ def main():
         for root, dirs, files in os.walk(search_dir):
             for look_dir in dirs:
                 if SEARCHKEY == look_dir:
+                    ignored = False
                     for el in IGNORE:
-                        if el not in root:
-                            git_repos.append(root)
+                        if el in root:
+                            ignored = True
+                    if not ignored:
+                        git_repos.append(root)
 
     for git_repo in git_repos:
         temp_values = []
